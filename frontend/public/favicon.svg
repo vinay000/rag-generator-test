@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#047857" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Container -->
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bgGrad)" filter="url(#shadow)" />
+
+  <!-- Document Silhouette -->
+  <path d="M20 16H38L46 24V46C46 47.1046 45.1046 48 44 48H20C18.8954 48 18 47.1046 18 46V18C18 16.8954 18.8954 16 20 16Z" fill="#ffffff" fill-opacity="0.2" />
+  <path d="M38 16V24H46" fill="#ffffff" fill-opacity="0.35" />
+
+  <!-- Lightning / Electric RAG Core Symbol -->
+  <path d="M34 22L24 34H33L30 44L41 31H32L34 22Z" fill="url(#glowGrad)" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round" />
+</svg>

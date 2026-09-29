@@ -1,0 +1,21 @@
+{
+  "name": "rag-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "mammoth": "^1.13.0",
+    "multer": "^2.4.0",
+    "nanoid": "^6.0.1",
+    "openai": "^7.23.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
